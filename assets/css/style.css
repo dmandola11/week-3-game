@@ -1,0 +1,19 @@
+
+body {
+	background-color: #e681c9;
+}
+.wrapper{
+	width: 960px;
+}
+
+h1{
+	color: #f7e730;
+	position: relative;
+	margin-left: 425px;
+}
+.img{
+	width: 50%;
+	position: relative;
+	margin: -58px 366px;
+    z-index: -1;
+}
