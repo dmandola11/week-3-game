@@ -9,8 +9,8 @@ var words = ["bart",  "homer",  "springfield",  "doh",  "woohoo",
 //selects random word from array
 var gameWord = words[Math.floor(Math.random() * words.length)];
 console.log(gameWord);
-//holds letters already guessed
-var guessedLetters = []; 
+
+var guessedLetters = [];
 
 var lines = [];
 //switches out underscores for letters in chosen word
@@ -25,10 +25,7 @@ console.log(lines);
 var guesses = gameWord.length + 5;
 document.getElementById("guesses").innerHTML =  guesses;
 
-var letters = gameWord.length;
-
-
-if (guesses > 0 && letters > 0){
+if (guesses > 0){
 var spaces = lines.join(" ");
 document.getElementById("dispword").innerHTML = spaces;
 	
@@ -40,7 +37,7 @@ console.log(userGuess);
 
 guessedLetters.push(userGuess);
 document.getElementById("displetters").innerHTML = userGuess;
-
+}
 for (let i = 0; i <= gameWord.length; i++) {
 	if (gameWord[i] === userGuess) {
                 lines[i] = userGuess;
@@ -49,5 +46,4 @@ for (let i = 0; i <= gameWord.length; i++) {
                 matches = true;
             }
 	}
-}
 }

@@ -17,3 +17,20 @@ body {
 	margin: -58px 366px;
     z-index: -1;
 }
+
+h2{
+	font-family: Impact, Charcoal, sans-serif;
+    font-size: 27px;
+    padding: 2px;
+    position: relative;
+    margin-left: 21px;
+    margin-top: 10px;	
+
+}
+
+#wins, #guesses, #dispword, #displetters{
+
+	position: relative;
+	padding: 2px;
+	margin-left: 21px;
+}
