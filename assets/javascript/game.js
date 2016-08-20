@@ -25,11 +25,9 @@ console.log(lines);
 var guesses = gameWord.length + 5;
 document.getElementById("guesses").innerHTML =  guesses;
 
-if (guesses > 0){
+
 var spaces = lines.join(" ");
 document.getElementById("dispword").innerHTML = spaces;
-	
-var matches = true;
 	
 document.onkeyup = function(event) {
 var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
@@ -37,11 +35,10 @@ console.log(userGuess);
 
 guessedLetters.push(userGuess);
 document.getElementById("displetters").innerHTML = userGuess;
-}
+
 for (let i = 0; i <= gameWord.length; i++) {
 	if (gameWord[i] === userGuess) {
                 lines[i] = userGuess;
-                letters--;
                 guesses--;
                 matches = true;
             }
