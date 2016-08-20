@@ -6,11 +6,11 @@ body {
 	width: 960px;
 }
 
-h1{
-	color: #f7e730;
+#logo{
 	position: relative;
-	margin-left: 425px;
+	margin-left: 408px;	
 }
+
 .img{
 	width: 50%;
 	position: relative;
