@@ -1,89 +1,96 @@
-
 body {
-	background-color: #e681c9;
-}
-.wrapper{
-	width: 960px;
+    background-color: #e681c9;
 }
 
-#logo{
-	position: relative;
-	margin-left: 408px;	
+.wrapper {
+    width: 960px;
 }
 
-.img{
-	width: 50%;
-	position: relative;
-	margin: -58px 366px;
+#logo {
+    position: relative;
+    margin-left: 408px;
+}
+
+.img {
+    width: 50%;
+    position: relative;
+    margin: -58px 366px;
     z-index: -1;
 }
 
-h2, h3{
-	font-family: Impact, Charcoal, sans-serif;
+h2,
+h3 {
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 27px;
     padding: 2px;
     position: relative;
     margin-left: 21px;
-    margin-top: 10px;	
-
+    margin-top: 10px;
 }
 
-h3{
-	font-size: 18px;
+h3 {
+    font-size: 18px;
 }
 
-.inst{
-	position: relative;
-	bottom: 254px;
-}
-#start{
-	position: relative;
-	bottom: 258px;
+.inst {
+    position: relative;
+    bottom: 254px;
 }
 
-.word{
-	position: relative;
-	bottom: 245px;
+#start {
+    position: relative;
+    bottom: 258px;
 }
 
-.guess{
-	position: relative;
-	bottom: 240px;
+.word {
+    position: relative;
+    bottom: 245px;
 }
 
-#guesses{
-	font-size: 25px;
-	left: 51px;
+.guess {
+    position: relative;
+    bottom: 240px;
 }
 
-.letters{
-	position: relative;
-	bottom: 233px;
+#guesses {
+    font-size: 25px;
+    left: 51px;
 }
 
-#dispword{
-	margin-left: 70px;
+.letters {
+    position: relative;
+    bottom: 233px;
+}
+
+#dispword {
+    margin-left: 70px;
     font-size: 42px;
 }
-#wins, #losses, #guesses, #dispword, #displetters{
 
-	position: relative;
-	padding: 2px;
-	margin-left: 21px;
+#wins,
+#losses,
+#guesses,
+#dispword,
+#displetters {
+    position: relative;
+    padding: 2px;
+    margin-left: 21px;
 }
 
-#displetters, #wins, #losses{
-	font-size: 30px;
+#displetters,
+#wins,
+#losses {
+    font-size: 30px;
 }
 
-.win{
-	position: relative;
+.win {
+    position: relative;
     float: right;
     bottom: 358px;
 }
 
-.loss{
-	position: relative;
+.loss {
+    position: relative;
     float: right;
     bottom: 299px;
     left: 102px;
