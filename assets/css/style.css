@@ -18,7 +18,7 @@ body {
     z-index: -1;
 }
 
-h2{
+h2, h3{
 	font-family: Impact, Charcoal, sans-serif;
     font-size: 27px;
     padding: 2px;
@@ -28,9 +28,63 @@ h2{
 
 }
 
-#wins, #guesses, #dispword, #displetters{
+h3{
+	font-size: 18px;
+}
+
+.inst{
+	position: relative;
+	bottom: 254px;
+}
+#start{
+	position: relative;
+	bottom: 258px;
+}
+
+.word{
+	position: relative;
+	bottom: 245px;
+}
+
+.guess{
+	position: relative;
+	bottom: 240px;
+}
+
+#guesses{
+	font-size: 25px;
+	left: 51px;
+}
+
+.letters{
+	position: relative;
+	bottom: 233px;
+}
+
+#dispword{
+	margin-left: 70px;
+    font-size: 42px;
+}
+#wins, #losses, #guesses, #dispword, #displetters{
 
 	position: relative;
 	padding: 2px;
 	margin-left: 21px;
+}
+
+#displetters, #wins, #losses{
+	font-size: 30px;
+}
+
+.win{
+	position: relative;
+    float: right;
+    bottom: 358px;
+}
+
+.loss{
+	position: relative;
+    float: right;
+    bottom: 299px;
+    left: 102px;
 }
